@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Book Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html" class="active">Home</a></li>
+                    <li><a href="books.html">Books</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Welcome to Book Shop</h2>
+            <p>Discover your next favorite book from our curated collection. Enjoy fast delivery and great prices!</p>
+            <a href="books.html" class="hero-btn">Browse Books</a>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Book Shop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+  const toggleBtn = document.getElementById("navToggleBtn");
+  const mobileNav = document.getElementById("mobileNav");
+
+  toggleBtn.addEventListener("click", () => {
+    mobileNav.classList.toggle("hidden");
+  });
+</script>
+</body>
+</html>
